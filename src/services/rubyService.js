@@ -9,7 +9,6 @@ export const rubyService = {
     const { onLog, onError, onStop } = callbacks;
 
     await engine.resumeIfNeeded();
-
     const res = await fetch(`${BACKEND_URL}/run`, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain' },
