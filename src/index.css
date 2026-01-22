@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #ec4899;
+  --color-brand-purple: #a855f7;
+  --color-bg-main: #0a0a0a;
+  --color-bg-card: #18181b;
+  --color-editor-bg: #121212;
+}
